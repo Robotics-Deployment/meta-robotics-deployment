@@ -1,0 +1,41 @@
+This README file contains information on the contents of the meta-robotics-deployment layer.
+
+Please see the corresponding sections below for details.
+
+Dependencies
+============
+
+  URI: <first dependency>
+  branch: <branch name>
+
+  URI: <second dependency>
+  branch: <branch name>
+
+  .
+  .
+  .
+
+Patches
+=======
+
+Please submit any patches against the meta-robotics-deployment layer to the xxxx mailing list (deniz@roboticsdeployment.com)
+and cc: the maintainer:
+
+Maintainer: Deniz Hofmeister <deniz@roboticsdeployment.com>
+
+Table of Contents
+=================
+
+  I. Adding the meta-robotics-deployment layer to your build
+ II. Misc
+
+
+I. Adding the meta-robotics-deployment layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-robotics-deployment'
+
+II. Misc
+========
+
+--- replace with specific information about the meta-robotics-deployment layer ---
