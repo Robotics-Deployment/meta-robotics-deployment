@@ -2,4 +2,3 @@
 
 require recipes-core/images/robotics-deployment-core.bb
 inherit testimage
-
