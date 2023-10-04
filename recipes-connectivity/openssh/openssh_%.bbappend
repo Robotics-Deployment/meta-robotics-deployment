@@ -1,4 +1,4 @@
-FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
+FILESEXTRAPATHS:prepend := "${THISDIR}/conf:"
 SRC_URI += "file://sshd_config"
 
 do_install:append() {
