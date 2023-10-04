@@ -54,7 +54,7 @@ CONF_VERSION = "2"
 ### Function
 
 This layer provides a robotics-deployment distro for the Yocto Project. It adds a minimal layer of packages to make the device
-manageable through a cloud interface.
+manageable through a cloud interface with an SSH / Wireguard tunnel and a container runtime.
 
 ```yaml
 packages:
