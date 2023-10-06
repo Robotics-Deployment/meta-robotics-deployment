@@ -1,0 +1,11 @@
+[Unit]
+Description=WireGuard VPN service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/wg-quick up /etc/wireguard/rd0.conf
+ExecStop=/usr/bin/wg-quick down /etc/wireguard/rd0.conf
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
