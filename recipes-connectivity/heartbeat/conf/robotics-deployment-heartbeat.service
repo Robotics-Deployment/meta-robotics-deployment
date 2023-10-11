@@ -1,0 +1,12 @@
+[Unit]
+Description=Robotics Deployment Heartbeat
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/rdembedded
+Restart=always
+User=root
+Environment="PATH=/usr/bin:/usr/local/bin"
+
+[Install]
+WantedBy=multi-user.target
