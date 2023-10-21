@@ -74,7 +74,5 @@ A minimal footprint in packages, cpu and memory usage, while providing a secure 
 
 ### Support
 
-Please submit any patches against the meta-robotics-deployment layer to the mailing list (deniz@roboticsdeployment.com)
-and cc: the maintainer:
-
+Please submit any patches against the meta-robotics-deployment layer to the maintainer
 Maintainer: Deniz Hofmeister: deniz@roboticsdeployment.com
